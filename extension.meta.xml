@@ -2,7 +2,9 @@
 <extension id="association_ui_editor" status="development" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Association UI: Editor</name>
 	<description>Create and edit association inline</description>
-	<repo type="github">https://github.com/hananils/association_ui_editor</repo>
+	<repo type="github">https://github.com/mazedigital/association_ui_editor</repo>
+	<url type="issues">https://github.com/mazedigital/association_ui_editor/issues</url>
+	<url type="discuss">https://www.getsymphony.com/discuss/thread/106489/</url>
 	<types>
 		<type>Associations</type>
 	</types>
@@ -13,6 +15,11 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.2.0" date="2019-04-06" min="2.5.0" max="2.x.x" php-min="5.6.0" php-max="7.x.x">
+			- PHP 7.2 compatibility: make static $provides protected (#31)
+			- Added PHP compatibility data to the release info
+			- Updated repo link and added 'issues' and 'discuss' links
+		</release>
 		<release version="1.1.0" date="2014-08-14" min="2.5">
 			- Added German translation
 		</release>
